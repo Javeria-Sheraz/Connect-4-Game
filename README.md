@@ -3,10 +3,9 @@
 A classic Connect-4 implementation in C where two players compete to connect four of their symbols vertically, horizontally, or diagonally on a 6×7 grid.
 
 🎮 Features
-- Two-player gameplay** (Player 1: 'X', Player 2: 'O')
-- **Color-coded turns** (Red for Player 1, Yellow for Player 2)
+- **Two-player gameplay** (Player 1: 'X', Player 2: 'O')
+- **Colour-coded turns** (Red for Player 1, Yellow for Player 2)
 - **Input validation** for column selection
-- **Full grid detection** - prevents moves in full columns
 - **Win detection** checks all possible 4-in-a-row combinations:
   - Horizontal
   - Vertical
@@ -20,7 +19,7 @@ A classic Connect-4 implementation in C where two players compete to connect fou
    - A player connects four pieces (wins)
    - The board fills completely (draw)
 
-## ⚙️ Technical Details
+## ⚙️ Technical Details of the code
 - **Grid Representation**: 6 rows × 7 columns 2D array
 - **Key Functions**:
   - `displayGrid()` - Shows current board state
@@ -28,15 +27,6 @@ A classic Connect-4 implementation in C where two players compete to connect fou
   - `checks()` - Validates player input
   - `isWinner()` - Checks all win conditions
 
-## 🚀 How to Run
-1. Compile with any C compiler:
-   ```bash
-   gcc lab16T5.c -o connect4
-   ```
-2. Run the executable:
-   ```bash
-   ./connect4
-   ```
 
 ## 🎯 Game Rules
 1. Players take turns dropping their symbol into columns
