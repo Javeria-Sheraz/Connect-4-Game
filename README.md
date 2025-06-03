@@ -33,4 +33,3 @@ A classic Connect-4 implementation in C where two players compete to connect fou
 2. First to connect four of their symbols wins
 3. If the board fills with no winner, the game is a draw
 
-Enjoy this terminal-based version of the classic Connect-4 game! The simple interface makes it easy to play while preserving all the strategic depth of the original.
